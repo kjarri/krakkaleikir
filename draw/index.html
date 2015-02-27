@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html><!--  manifest="cache.manifest"> -->
+  <head>
+    <meta charset="utf-8" />
+    <title>Draw!</title>
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <style>
+      body {
+        margin: 0;
+      }
+      canvas {
+        padding: 0;
+        margin: 0;
+        top: 0;
+        position: fixed;
+        background: transparent;
+      }
+      #version {
+        position: absolute;
+        bottom: 3px;
+        left: 12px;
+        font-size: 9px;
+        font-weight: bold;
+        font-family: verdana;
+        color: black;
+        z-index: 1000;
+
+        -webkit-user-select: none; /* Chrome/Safari */        
+        -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* IE10+ */
+      }
+    </style>
+  </head>
+  <body>
+    <div id="version">
+      Krakkadraw v0.3
+    </div>
+  </body>
+  <script src="draw.js"></script>
+</html>
