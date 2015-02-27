@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html><!--  manifest="cache.manifest"> -->
+  <head>
+    <meta charset="utf-8" />
+    <title>Stafadrag!</title>
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <style>
+      body {
+        /*background: #FF7E00;*/
+        margin: 0;
+      }
+      canvas {
+        padding: 0;
+        margin: 0;
+        top: 0;
+        position: fixed;
+        background: transparent;
+      }
+      #dragCanvas {
+        z-index: 0;
+      }
+      #menuCanvas {
+        z-index: 2;
+      }
+      #version {
+        position: absolute;
+        top: 0;
+        right: 12px;
+        font-size: 9px;
+        font-weight: bold;
+        font-family: verdana;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div style="position: relative;">
+    <!-- <canvas id="dragCanvas"></canvas>
+    <canvas id="menuCanvas"></canvas> -->
+    <!-- <audio id="sound" src="sound.m4a"> -->
+    </audio>
+    </div>
+    <div id="version">
+      Stafadrag v0.01
+    </div>
+  </body>
+  <script src="script.js?foo=1"></script>
+</html>

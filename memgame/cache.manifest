@@ -1,0 +1,59 @@
+CACHE MANIFEST
+# This is a comment.
+# Cache manifest version 0.1.36
+# If you change the version number in this comment,
+# the cache manifest is no longer byte-for-byte
+# identical.
+
+#NETWORK:
+# All URLs that start with the following lines
+# are whitelisted.
+
+CACHE:
+memgame_imgs/128_dog5.png
+memgame_imgs/1_fish.png
+memgame_imgs/2_fish.png
+memgame_imgs/babelfish.png
+memgame_imgs/big_foot.png
+memgame_imgs/bird.png
+memgame_imgs/black_cat.png
+memgame_imgs/black_leopard.png
+memgame_imgs/bullfinch_2.png
+memgame_imgs/cat(1).png
+memgame_imgs/cat(2).png
+memgame_imgs/cat(3).png
+memgame_imgs/cat(4).png
+memgame_imgs/cat(5).png
+memgame_imgs/cat.png
+memgame_imgs/cat5.png
+memgame_imgs/cat_3.png
+memgame_imgs/dog(1).png
+memgame_imgs/dog(2).png
+memgame_imgs/dog.png
+memgame_imgs/dog_2.png
+memgame_imgs/dog_vista_archigraphs.png
+memgame_imgs/dragon_fly.png
+memgame_imgs/elephant.png
+memgame_imgs/fish.png
+memgame_imgs/flying_bird_sparkles.png
+memgame_imgs/frog.png
+memgame_imgs/gnome_panel_fish.png
+memgame_imgs/hp_cat.png
+memgame_imgs/hp_dog.png
+memgame_imgs/i_hate_cats.png
+memgame_imgs/jelly_fish.png
+memgame_imgs/kbugbuster.png
+memgame_imgs/ladybug.png
+memgame_imgs/nessy.png
+memgame_imgs/penguin.png
+memgame_imgs/polar_bear.png
+memgame_imgs/remember_the_milk.png
+memgame_imgs/turtle.png
+memgame_imgs/wallace_128.png
+memgame_imgs/ware_wolf.png
+memgame_icon2.png
+memgame_icon.png
+
+#FALLBACK:
+
+#SETTINGS:
